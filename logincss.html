@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="logincss.css">
+</head>
+<center><h1>Payment form</h1></center>
+<hr>
+
+<body>
+    <form>
+    <div class="back">
+    <h1>user detais</h1>
+    <h2>Name : <input type="text" name="name" id="name" placeholder="eg rahul" required></h2>
+     <fieldset ><legend><h2>Gender</h2></legend> <h2>  male<input type="radio" name="gender" id="male" required>Female<input type="radio" name="gender" id="female" required></h2></fieldset>
+     <h2> Address: <textarea  id="about" rows="3" cols="90" placeholder="tell something about you"></textarea></h2>
+     <h2>Email id:<input type="text" id="text" placeholder="abcd@gmail.com" required></h2>
+     <h2>Pin code: <input type="number" id="pin" placeholder="654003" required></h2>
+     <hr>
+     <h1>Payment details</h1>
+     <h2>Card type: 
+        <select name="country" required>
+            <option value="">--select card type--</option>
+            <option value="credit card" id="card">credit card</option>
+            <option value="debit card" id="card">debit card</option>
+            <option value="atm  card" id="card">atm card</option>
+        </select>
+
+     </h2>
+     <h2>card no: <input type="number" id="card no"  placeholder="4444 3333 2222" required></h2>
+     <h2>Expiration date <input type="date" id="exp date" required></h2>
+     <h2>CVV: <input type="number" id="cvv" placeholder="233" required></h2>
+    <center> <button  type="submit"> pay now</button> </center>
+</div>
+</form>
+
+</body>
+</html>
